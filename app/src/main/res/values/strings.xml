@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MirzaSubmissionDicoding</string>
+    <string name="profile">Profile</string>
+    <string name="nama_pemain">Nama Pemain</string>
+    <string name="rincian">Rincian</string>
+    <string name="detail">Detail</string>
+    <string name="mirza_faturrachman">Mirza Faturrachman</string>
+    <string name="sukabumi_indonesia">Sukabumi, Indonesia</string>
+    <string name="mirzafatur97_gmail_com">mirzafatur97@gmail.com</string>
+    <string name="universitas_nusa_putra_sukabumi">Universitas Nusa Putra Sukabumi</string>
+    <string name="_0852_8573_3884">0852-8573-3884</string>
+    <string name="nama">Nama</string>
+    <string name="detail_pemain">detail Pemain</string>
+</resources>

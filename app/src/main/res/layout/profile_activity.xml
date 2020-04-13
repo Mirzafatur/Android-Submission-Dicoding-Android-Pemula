@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".ProfileActivity"
+    android:background="@color/bgColor">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:src="@drawable/izm"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_margin="8dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:text="@string/mirza_faturrachman"
+                android:textColor="@color/colorNamePlayer"
+                android:gravity="center"
+                android:layout_marginTop="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:text="@string/sukabumi_indonesia"
+                android:typeface="serif"
+                android:layout_gravity="center"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:textColor="@color/colorDetailPlayer"/>
+
+        </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_gravity="center"
+        android:padding="16dp"
+        app:cardCornerRadius="32dp"
+        app:cardBackgroundColor="@color/btnProfil">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:padding="24dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_gmail"
+                android:text="@string/mirzafatur97_gmail_com"
+                android:textSize="16sp"
+                android:textColor="@color/colorNamePlayer"/>
+
+            <TextView
+                android:padding="24dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_univ"
+                android:text="@string/universitas_nusa_putra_sukabumi"
+                android:textSize="16sp"
+                android:textColor="@color/colorNamePlayer"/>
+
+            <TextView
+                android:padding="24dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_telp"
+                android:text="@string/_0852_8573_3884"
+                android:textSize="16sp"
+                android:textColor="@color/colorNamePlayer"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
